@@ -23,7 +23,7 @@ Match the tone and style of the existing pages.
 
 ## PR checklist
 
-- [ ] Content is accurate (check against the [official BDFD wiki](https://bdfd.wiki))
+- [ ] Content is accurate (check against the [official BDFD wiki](https://wiki.botdesignerdiscord.com/))
 - [ ] Examples actually work
 - [ ] No broken internal links
 
