@@ -2,7 +2,7 @@
 A beginner-friendly guide to the **$http** functions in BDFD.
 ---
 ## What this is about
-The `$http` functions let your bot send and receive data over the internet. The services it talks to are called **APIs**, think of them as websites designed for bots: instead of a page with text and images, they return raw data (usually JSON) that your bot can use directly.<br>
+The `$http` functions let your bot send and receive data over the internet. The services it talks to are called **APIs**, think of them as websites designed for bots: instead of a page with text and images, they return raw data (usually JSON) that your bot can use directly. 
 There are different types of requests for different jobs:
 - **GET**: read data from an API (`$httpGet[URL]`)
 - **POST**: send new data to an API (`$httpPost[URL;(Body)]`)
@@ -10,8 +10,7 @@ There are different types of requests for different jobs:
 - **PATCH**: update part of existing data on an API (`$httpPatch[URL;(Body)]`)
 - **DELETE**: remove data from an API (`$httpDelete[URL;(Body)]`)
 
-Each type has its own function, and they all work the same way: you call the function, BDFD stores the response, then you use `$httpResult` to return it.<br>
-With these functions you can build:
+Each type has its own function, and they all work the same way: you call the function, BDFD stores the response, then you use `$httpResult` to return it. With these functions you can build:
 - **AI chatbots**: talk to an AI API
 - **Economy systems**: save and load user balances from a database
 - **Weather commands**: get live weather data
@@ -21,17 +20,17 @@ With these functions you can build:
 ## How this guide is organized
 Functions are grouped into three categories. Each category has its own folder, and each function has its own page.
 
-### **Requests**<br>
+### **Requests**
 **Use**: making calls to APIs
 > **Functions**:
 > `$httpGet`, `$httpPost`, `$httpPut`, `$httpPatch`, `$httpDelete`
   
-### **Headers**:<br>
-**Use**: extra information attached to your requests and responses — like metadata your bot sends or receives alongside the actual data.
+### **Headers**:
+**Use**: extra information attached to your requests and responses, like metadata your bot sends or receives alongside the actual data.
 > **Functions:**
 > `$httpAddHeader`, `$httpRemoveHeader`, `$httpGetHeader`
   
-### **Responses**:<br>
+### **Responses**:
 **Use**: returns what comes back and check the API's status.
 > **Functions:**
 > `$httpResult`, `$httpStatus`.
